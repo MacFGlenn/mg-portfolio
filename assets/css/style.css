@@ -58,11 +58,11 @@ header nav ul li a {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
     width: 100px;
 }
 
 .hero img {
-    align-items: center;
     max-width: 100%;
 }
 
@@ -78,6 +78,10 @@ header nav ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.work h2 {
+    margin: 0 5000px;
 }
 
 .apps {
@@ -97,7 +101,7 @@ header nav ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    margin: 20px;
+    margin: auto;
 }
 
 .contact-info h2 {
@@ -107,4 +111,12 @@ header nav ul li a {
 .contact-info a {
     padding: 20px;
     text-decoration: none;
+}
+
+@media screen and (max-width:980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
 }
