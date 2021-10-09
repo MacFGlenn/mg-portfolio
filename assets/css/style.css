@@ -53,3 +53,58 @@ header nav ul li a {
     font-size: 1.5vw;
     padding: 10px 15px;
 }
+
+.hero {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+.hero img {
+    align-items: center;
+    max-width: 100%;
+}
+
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.work {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.apps {
+    width: 500px;
+}
+
+.apps img {
+    width: 50%;
+}
+
+.apps img:first-child {
+    width: 100%;
+}
+
+.contact-info {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 20px;
+}
+
+.contact-info h2 {
+    padding: 15px;
+}
+
+.contact-info a {
+    padding: 20px;
+    text-decoration: none;
+}
