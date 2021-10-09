@@ -11,5 +11,45 @@
 }
 
 body {
-    background-color: var(--secondary-color);
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px, 35px;
+    text-decoration: none;
+}
+
+header h1 {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 36px;
+}
+
+header a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+header nav {
+    margin: 10px 5px;
+}
+
+header nav ul {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li a {
+    font-weight: lighter;
+    font-size: 1.5vw;
+    padding: 10px 15px;
 }
